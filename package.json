@@ -1,0 +1,11 @@
+{
+  "name": "tutoringproject",
+  "version": "1.0.0",
+  "description": "A project to make it easier for a tutor to take attendance at Lehigh",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Chebruch",
+  "license": "ISC"
+}
