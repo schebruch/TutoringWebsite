@@ -11,9 +11,19 @@ app.get("/", function(req, res){
 	res.render("index");
 });
 
-app.get("/sections/new", function(req, res){
-	res.render("new");
+app.get("/index", function(req, res){
+	res.redirect("/");
 });
+
+app.get("/sections/new", function(req, res){
+	res.render("newSection");
+});
+
+app.get("/students/new", function(req, res){
+	res.render("newStudent");
+});
+
+
 
 
 app.listen(8080, function(){

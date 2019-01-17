@@ -1,0 +1,41 @@
+<%include ./partials/header%>
+
+<div class = "container">
+	<form method = "POST" action = "/students/:sectionName/new">
+	  <div class="form-row">
+	    <div class="form-group col-md-4">
+	      <label for="firstName">First Name</label>
+	      <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+	    </div>
+	    <div class="form-group col-md-4">
+	      <label for="lastName">Last Name</label>
+	      <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+        </div>
+	    <div class="form-group col-md-4">
+            <label for="LIN">LIN</label>
+            <input type="text" class="form-control" id="LIN" placeholder="LIN" required>
+        </div>
+      </div>
+
+
+
+	  <div class = "form-row">
+		 <div class = "form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+		</div>
+
+		 <div class = "form-group col-md-6">
+		 		<label for = "athlete">Athlete</label>
+                <div id = "atlete">
+                    <label class="radio-inline"><input type="radio" name="optradio">Yes</label>
+                    <label class="radio-inline"><input type="radio" name="optradio">No</label>	
+                </div>
+		</div>
+	</div>
+	  <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+	  </form>
+
+</div>
+
+<%include ./partials/footer%>

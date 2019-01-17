@@ -3,7 +3,11 @@
 }
 
 form{
-	border:1px dashed blue;
+	border:1px dashed #58585d;
 	padding: 20px;
-	margin: auto;
+}
+
+
+.form-group{
+	margin-bottom: 2.0em;
 }
