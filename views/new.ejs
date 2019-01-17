@@ -1,0 +1,54 @@
+<%include ./partials/header%>
+
+  <div class = "container">
+<form method = "POST" action = "/sections">
+	  <div class="form-row">
+	    <div class="form-group col-md-6">
+	      <label for="subj">Course Subject (e.g. "MATH")</label>
+	      <input type="text" class="form-control" id="subj" placeholder="Subject" required>
+	    </div>
+	    <div class="form-group col-md-6">
+	      <label for="courseNum">Course Number</label>
+	      <input type="text" class="form-control" id="courseNum" placeholder="Course Number" required>
+	    </div>
+	  </div>
+
+
+	  <div class = "form-row">
+		 <!--Days of the week -->
+		 <div class = "form-group col-md-6">
+		 		<label for = "daysList">Select the Day of the Week You Will Tutor</label>
+		 			<div id = "daysList">
+						<label class="radio-inline"><input type="radio" name="optradio">Mon</label>
+						<label class="radio-inline"><input type="radio" name="optradio">Tues</label>
+						<label class="radio-inline"><input type="radio" name="optradio">Wed</label>
+						<label class="radio-inline"><input type="radio" name="optradio">Thurs</label>
+						<label class="radio-inline"><input type="radio" name="optradio">Fri</label>
+						<label class="radio-inline"><input type="radio" name="optradio">Sat</label>
+						<label class="radio-inline"><input type="radio" name="optradio">Sun</label>	
+					</div>
+		</div>
+
+
+	<!--Starting times -->
+		 <div class = "form-group col-md-6">
+		 		<label for = "times">Select the Starting Time of the Session</label>
+		 			<div id = "times">
+						<label class="radio-inline"><input type="radio" name="optradio">12</label>
+						<label class="radio-inline"><input type="radio" name="optradio">1</label>
+						<label class="radio-inline"><input type="radio" name="optradio">2</label>
+						<label class="radio-inline"><input type="radio" name="optradio">3</label>
+						<label class="radio-inline"><input type="radio" name="optradio">4</label>
+						<label class="radio-inline"><input type="radio" name="optradio">5</label>
+						<label class="radio-inline"><input type="radio" name="optradio">6</label>	
+						<label class="radio-inline"><input type="radio" name="optradio">7</label>	
+						<label class="radio-inline"><input type="radio" name="optradio">8</label>	
+					</div>
+		</div>
+	</div>
+	  <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+	  </form>
+
+	</div>
+
+<%include ./partials/footer%>
