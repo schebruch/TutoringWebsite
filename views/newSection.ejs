@@ -5,11 +5,11 @@
 	  <div class="form-row">
 	    <div class="form-group col-md-6">
 	      <label for="subj">Course Subject (e.g. "MATH")</label>
-	      <input type="text" class="form-control" id="subj" placeholder="Subject" required>
+	      <input type="text" class="form-control" id="subj" placeholder="Subject" name = "section[subject]" required>
 	    </div>
 	    <div class="form-group col-md-6">
 	      <label for="courseNum">Course Number</label>
-	      <input type="text" class="form-control" id="courseNum" placeholder="Course Number" required>
+	      <input type="text" class="form-control" id="courseNum" placeholder= "Course Number" name = "section[courseNum]" required>
 	    </div>
 	  </div>
 
@@ -19,13 +19,13 @@
 		 <div class = "form-group col-md-6">
 		 		<label for = "daysList">Select the Day of the Week You Will Tutor</label>
 		 			<div id = "daysList">
-						<label class="radio-inline"><input type="radio" name="optradio">Mon</label>
-						<label class="radio-inline"><input type="radio" name="optradio">Tues</label>
-						<label class="radio-inline"><input type="radio" name="optradio">Wed</label>
-						<label class="radio-inline"><input type="radio" name="optradio">Thurs</label>
-						<label class="radio-inline"><input type="radio" name="optradio">Fri</label>
-						<label class="radio-inline"><input type="radio" name="optradio">Sat</label>
-						<label class="radio-inline"><input type="radio" name="optradio">Sun</label>	
+						<label class="radio-inline"><input type="radio" name="section[day]" value = "Mon">Mon</label>
+						<label class="radio-inline"><input type="radio" name="section[day]" value = "Tues">Tues</label>
+						<label class="radio-inline"><input type="radio" name="section[day]" value = "Wed">Wed</label>
+						<label class="radio-inline"><input type="radio" name="section[day]" value = "Thurs">Thurs</label>
+						<label class="radio-inline"><input type="radio" name="section[day]" value = "Fri">Fri</label>
+						<label class="radio-inline"><input type="radio" name="section[day]" value = "Sat">Sat</label>
+						<label class="radio-inline"><input type="radio" name="section[day]" value = "Sun">Sun</label>	
 					</div>
 		</div>
 
@@ -34,19 +34,19 @@
 		 <div class = "form-group col-md-6">
 		 		<label for = "times">Select the Starting Time of the Session</label>
 		 			<div id = "times">
-						<label class="radio-inline"><input type="radio" name="optradio">12</label>
-						<label class="radio-inline"><input type="radio" name="optradio">1</label>
-						<label class="radio-inline"><input type="radio" name="optradio">2</label>
-						<label class="radio-inline"><input type="radio" name="optradio">3</label>
-						<label class="radio-inline"><input type="radio" name="optradio">4</label>
-						<label class="radio-inline"><input type="radio" name="optradio">5</label>
-						<label class="radio-inline"><input type="radio" name="optradio">6</label>	
-						<label class="radio-inline"><input type="radio" name="optradio">7</label>	
-						<label class="radio-inline"><input type="radio" name="optradio">8</label>	
+						<label class="radio-inline"><input type="radio" name="section[startingTime]" value = "12">12</label>
+						<label class="radio-inline"><input type="radio" name="section[startingTime]" value = "1">1</label>
+						<label class="radio-inline"><input type="radio" name="section[startingTime]" value = "2">2</label>
+						<label class="radio-inline"><input type="radio" name="section[startingTime]" value = "3">3</label>
+						<label class="radio-inline"><input type="radio" name="section[startingTime]" value = "4">4</label>
+						<label class="radio-inline"><input type="radio" name="section[startingTime]" value = "5">5</label>
+						<label class="radio-inline"><input type="radio" name="section[startingTime]" value = "6">6</label>	
+						<label class="radio-inline"><input type="radio" name="section[startingTime]" value = "7">7</label>	
+						<label class="radio-inline"><input type="radio" name="section[startingTime]" value = "8">8</label>	
 					</div>
 		</div>
 	</div>
-	  <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+	  <button type="submit" class="btn btn-primary btn-lg text-center">Submit</button>
 	  </form>
 
 </div>
